@@ -11,8 +11,8 @@ module.exports = function(app) {
 // Making a POST route
 
     app.post("/api/friends", function(req, res) {
-
-        req
+        console.log(req)
+        console.log(req.body)
 
     })
 
